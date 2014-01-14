@@ -1,0 +1,2 @@
+add_lunch_combo hive_mako-userdebug
+add_lunch_combo hive_grouper-userdebug
