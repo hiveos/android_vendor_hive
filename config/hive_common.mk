@@ -1,6 +1,6 @@
 # Gesture enabled JNI
-PRODUCT_COPY_FILES += \
-    vendor/hive/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+#PRODUCT_COPY_FILES += \
+#    vendor/hive/prebuilt/common/lib/libjni_latinime.so:system/lib/#libjni_latinime.so
 
 # device specific prebuilts
 #-include vendor/hive/prebuilt/$(TARGET_PRODUCT)/prebuilt.mk
