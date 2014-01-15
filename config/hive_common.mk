@@ -14,6 +14,10 @@ BOARD := $(subst hive_,,$(TARGET_PRODUCT))
 HIVE_VERSION_MAJOR = 0
 HIVE_VERSION_MINOR = 1
 
+#Temporary packages for device navigation 
+PRODUCT_PACKAGES := \
+    GoogleHome
+
 VERSION := $(HIVE_VERSION_MAJOR).$(HIVE_VERSION_MINOR)
 ifeq ($(DEVELOPER_VERSION),true)
 
