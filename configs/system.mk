@@ -1,10 +1,3 @@
-# Gesture enabled JNI
-#PRODUCT_COPY_FILES += \
-#    vendor/hive/prebuilt/common/lib/libjni_latinime.so:system/lib/#libjni_latinime.so
-
-# device specific prebuilts
-#-include vendor/hive/prebuilt/$(TARGET_PRODUCT)/prebuilt.mk
-
 BOARD := $(subst hive_,,$(TARGET_PRODUCT))
 
 # HIVE Overlays
@@ -16,7 +9,8 @@ HIVE_VERSION_MINOR = 1
 
 #Temporary packages for device navigation 
 PRODUCT_PACKAGES := \
-    GoogleHome
+    GoogleHome \
+    GoogleNow
 
 VERSION := $(HIVE_VERSION_MAJOR).$(HIVE_VERSION_MINOR)
 ifeq ($(DEVELOPER_VERSION),true)
